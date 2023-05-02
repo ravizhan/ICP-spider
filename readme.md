@@ -13,26 +13,30 @@
 
 ## 使用方法
 
-下载[yolov5项目](https://github.com/ultralytics/yolov5)
+- 下载本项目
+
+```
+git clone https://github.com/ravizhan/ICP-spider
+```
+
+- 在`ICP-spider`文件夹中下载[yolov5](https://github.com/ultralytics/yolov5)
 
 ```
 git clone https://github.com/ultralytics/yolov5
 ```
 
-安装依赖
+- 安装依赖
 
 ```
 pip install -r requirements.txt
 ```
 
-运行 `main.py` 即可
+- 最后运行 `main.py` 即可
 
 ## 注意事项
 
 - 官网反爬策略较为玄学，请勿疯狂请求
 
-- 项目中有两种格式的模型，CPU推理使用`onnx`更快，GPU推理使用`pt`更快，默认为`onnx`
-
-  位置在`capture.py`
+- 项目中有两种格式的模型，CPU推理使用`onnx`更快，GPU推理使用`pt`更快，默认为`onnx`，修改位置在`capture.py`
 
 - 本模型使用预训练模型yolov5n进行训练
