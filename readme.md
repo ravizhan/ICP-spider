@@ -26,5 +26,9 @@ pip install -r requirements.txt
 ## 备注
 
 - 官网反爬策略较为玄学，请勿疯狂请求
-- 运行结果为原始响应，如有需要请自行解析
-- 训练集 [![](https://app.roboflow.com/images/download-dataset-badge.svg)](https://universe.roboflow.com/ravizhan-xc2or/captcha-border-detection)
+
+- 项目中有两种格式的模型，CPU推理使用`onnx`更快，GPU推理使用`pt`更快，默认为`onnx`
+
+  位置在`capture.py`
+
+- 本模型使用预训练模型yolov5n进行训练
