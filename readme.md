@@ -44,3 +44,9 @@ pip install -r requirements.txt
 [ultralytics](https://github.com/ultralytics/ultralytics) YOLOv8
 
 没有他们的付出就没有本项目的诞生
+
+## 赞助
+如果本项目对你有帮助的话，欢迎赞助支持一下
+
+<img src="https://s21.ax1x.com/2024/04/03/pFHI6DU.png" width="200px">
+https://afdian.net/a/ravizhan
