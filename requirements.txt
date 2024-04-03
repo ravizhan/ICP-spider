@@ -1,2 +1,4 @@
 requests~=2.31.0
-fastdeploy-python~=1.0.7
+cryptography~=42.0.5
+onnxruntime~=1.17.1
+numpy~=1.26.4
