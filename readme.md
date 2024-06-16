@@ -48,4 +48,4 @@ pip install -r requirements.txt
 ## 赞助
 如果本项目对你有帮助的话，欢迎赞助支持一下
 
-![](https://img2.imgtp.com/2024/05/01/Y4DwXXYc.png)
+![0b848548403f837b32befde4d8096f82.png](https://i3.mjj.rip/2024/06/17/0b848548403f837b32befde4d8096f82.png)
