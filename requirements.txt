@@ -2,3 +2,4 @@ requests~=2.31.0
 cryptography~=42.0.5
 onnxruntime~=1.17.1
 numpy~=1.26.4
+opencv-python-headless~=4.10.0.84
