@@ -45,7 +45,12 @@ pip install -r requirements.txt
 
 没有他们的付出就没有本项目的诞生
 
+## 开源协议
+
+依据上游项目 [ultralytics](https://github.com/ultralytics/ultralytics) 所使用的AGPLv3协议，现以相同协议开源本项目，请自觉遵守。
+
 ## 赞助
+
 如果本项目对你有帮助的话，欢迎赞助支持一下
 
 ![0b848548403f837b32befde4d8096f82.png](https://i3.mjj.rip/2024/06/17/0b848548403f837b32befde4d8096f82.png)
