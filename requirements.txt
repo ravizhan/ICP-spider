@@ -3,3 +3,5 @@ cryptography~=42.0.5
 onnxruntime~=1.17.1
 numpy~=1.26.4
 opencv-python-headless~=4.10.0.84
+fastapi~=0.104.1
+uvicorn[standard]~=0.24.0
