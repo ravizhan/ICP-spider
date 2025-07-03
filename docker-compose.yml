@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  icp-spider-api:
+    build: .
+    container_name: icp-spider-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    volumes:
+      # 如果需要在开发时挂载代码，取消注释下面这行
+      # - .:/app
+      - /dev/shm:/dev/shm  # 共享内存，提高性能
+    networks:
+      - icp-network
+
+networks:
+  icp-network:
+    driver: bridge
